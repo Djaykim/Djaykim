@@ -14,7 +14,7 @@
 > PHP로 구축되어 있는 기존 렌터카 예약 및 백오피스 사이트를 spring 으로 리뉴얼하고 CI/CD 환경을 구축하여 보다 안정성 있는 서비스를 목표 
 >
 > - 참여 기간 : 2023.02 - 2023.10
-> - 핵심 역할 : AWS 기반의 인프라 아키텍쳐 설계, Legacy DB 분석 및 Migration 프로세스 구현, github action 을 통한 CI/CD 구성, 외부시스템 통신을 위한 api 구현, 외부 벤더사 핸들링 및 내부 일정 관리
+> - 핵심 역할 : AWS 기반의 인프라 아키텍쳐 설계, Legacy DB 분석 및 Migration 프로세스 구현, github action 을 통한 CI/CD 구성, 외부시스템 통신을 위한 api 구현, 외부 벤더사 핸들링
 > - 소속 회사 : 투어마케팅코리아
 >
 >> Back-end service(고객예약,백오피스,본사통신,Notication)
