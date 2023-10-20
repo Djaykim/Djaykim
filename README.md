@@ -7,23 +7,30 @@
 > PHP로 구축되어 있는 기존 렌터카 예약 및 백오피스 사이트를 spring 으로 리뉴얼하고 CI/CD 환경을 구축하여 보다 안정성 있는 서비스를 목표 
 >
 > - 참여 기간 : 2023.02 - 2023.10
-> - 핵심 역할 : AWS 기반의 인프라 아키텍쳐 설계, Legacy DB 분석 및 Migration 프로세스 구현, github action 을 통한 CI/CD 구성, 외부시스템 통신을 위한 api 구현
+> - 핵심 역할 : AWS 기반의 인프라 아키텍쳐 설계, Legacy DB 분석 및 Migration 프로세스 구현, github action 을 통한 CI/CD 구성, 외부시스템 통신을 위한 api 구현, 외부 벤더사 핸들링 및 내부 일정 관리
 > - 소속 회사 : 투어마케팅코리아
 >
->> Back-end
+>> Back-end service(고객예약,백오피스,본사통신,Notication)
 >> - Language : java  
->> - Skill : spring boot, AWS Dynamo Table, S3, aurora Mysql 
+>> - Skill : spring boot, JPA, mybatis
 >> 
 >
 >> Migration
 >> - Language : PHP
 >> - Skill : Mysql
 >>
+>> Infra
+>> - Skill : ECS, ECR, docker, github action, lambda(python), AWS Dynamo Table, S3, aurora Mysql
+>>
 
 ### 크롤링 수집 브라우저 개발 및 수집환경 개선
 
 > 기존 Windows VM 에서 C# winform 으로 수집하고 있는 환경을 k8s 환경으로 전환하여 Guest OS로 인한 메모리 낭비를 절약 하고 급변하는 수집 대상에 맞게 수집환경을 확장하는 것이 목표 
->
+> win vm 대상 약 100개 노드를 점진적 환경 변화를 위한 테스트 플랜 계획
+> 20개 노드 1차 전환 후 리소스 효율 약 4배, 수집 데이터 기준 약 5배 향상
+>> - 기존 vm당 4GB RAM 일 경우 4GB 당 1개의 Application -> 4개의 Pod 구성
+>> - 일주일 간 수집 데이터 기준 일당 10,000건 수집 -> 50,000건 수집(windows vm 10ea / pod 10ea 비교)
+> 
 > - 참여 기간 : 2021.10 - 2022.11
 > - 핵심 역할 : k8s cluster 설계 및 구성, puppeteer 기반 수집 브라우저 구현, workload 모니터링 체계 구축
 > - 소속 회사 : 알에스엔
@@ -39,7 +46,8 @@
 
 ### 회계 프로그램 개발(OPIC-A)
 
-> 비영리재단, 공익회계법인에서 단식으로 관리하는 가계부 형식의 회계를 신고하기 위한 용도의 복식 형태로 출력하기 위한 프로그램으로 사용자는 기존의 단식처럼 입력해도 복식의 장표가 생성되고
+> 비영리재단, 공익회계법인에서 단식으로 관리하는 가계부 형식의 회계를 신고하기 위한 용도의 복식 형태로 출력하기 위한 프로그램으로
+> 사용자는 기존의 단식처럼 입력해도 복식의 장표가 생성되고
 > 자주 바뀌는 인력 교체에도 대응할 수 있도록 사용자의 편의성을 고려하는 것이 목표
 >
 > - 핵심 역할 : 회계로직 분석 및 설계, 회계프로그램 구현
@@ -47,7 +55,7 @@
 >
 >> OPIC-A
 >> - Language : C#  
->> - Skill : winform, devexpress, mysql, click once
+>> - Skill : winform, devexpress, Mysql, click once
 >> 
 >
 >> Infra
@@ -63,7 +71,7 @@
 >
 >> VPMS(Vendor Print Management System)
 >> - Language : Java  
->> - Skill : enovia, oracle
+>> - Skill : enovia, Oracle
 >> 
 >
 
@@ -76,7 +84,7 @@
 >
 >> MARKUS
 >> - Language : C# WPF  
->> - Skill : mssql
+>> - Skill : MSSQL
 >> 
 >
 
