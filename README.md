@@ -20,6 +20,7 @@
 >> Back-end service(고객예약,백오피스,본사통신,Notication)
 >> - Language : java  
 >> - Skill : spring boot, JPA, mybatis
+>> - as is url : https://www.alamo.co.kr/
 >> 
 >
 >> Migration
@@ -59,6 +60,8 @@
 >
 > - 핵심 역할 : 회계로직 분석 및 설계, 회계프로그램 구현
 > - 소속 회사 : 써클소프트
+> - url : https://www.circlesoft.co.kr/
+> - youtube : https://youtu.be/e_dNJhh6D4Y?si=Ify7_JGWpSpaYAgk
 >
 >> OPIC-A
 >> - Language : C#  
@@ -88,6 +91,7 @@
 >
 > - 핵심 역할 : VPMS 등 고객사 문서관리시스템과 연계 분석, 프로그램 구축 및 유지보수
 > - 소속 회사 : 도프텍
+> - 소개 url : http://www.doftech.co.kr/markus.aspx
 >
 >> MARKUS
 >> - Language : C# WPF  
@@ -101,6 +105,7 @@
 >
 > - 핵심 역할 : 악성코드 탐지 사이트 백엔드 구현, 검색기능 향상을 위한 ElasticSearch 시범개발
 > - 소속 회사 : 샌즈랩(구 세인트시큐리티)
+> - url : https://www.malwares.com/
 >
 >> malwares.com
 >> - Language : ASP.NET MVC  
