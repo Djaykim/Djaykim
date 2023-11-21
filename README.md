@@ -7,6 +7,12 @@
 * 여러 개발언어의 소스분석이 가능 하여 Legacy를 분석 하고 타 솔루션과 협업 및 개발 운영이 가능
 * 형상관리(git), 이슈관리(redmine), 빌드서버(Jenkins) 뿐만 아닌 환경에 맞는 CI/CD 구축을 통해 개발 생산성, 협업 강화에 기여
 
+## Certificate
+> - 정보처리기사(2010.12)
+> - AWS Certified Solutions Architect - Associate(2022.12)
+>> - Certified Kubernetes Administrator(ing)
+ 
+
 ## Projects
 ### PHP Legacy to JAVA Spring 전환 프로젝트 및 Devops 환경 구축
 
@@ -145,3 +151,4 @@
 >> Migration
 >> - Skill : java batch, Mysql, mybatis
 >>
+
