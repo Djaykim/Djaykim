@@ -23,13 +23,13 @@
 
 ---
 
-## 📜 Certifications
+## Certifications
 - 정보처리기사 (2010.12)
 - AWS Certified Solutions Architect – Associate (2022.12)
 
 ---
 
-## 💼 Projects
+## Projects
 
 ### 업무 자동화
 **기간**: 2025.04 – 현재 | **소속**: 투어마케팅코리아  
@@ -44,7 +44,7 @@
 
 ---
 
-### 🚢 Cruisetmk 리뉴얼 및 운영 (Odysseyus 도입)
+### Cruisetmk 리뉴얼 및 운영 (Odysseyus 도입)
 **기간**: 2024.04 – 현재 | **소속**: 투어마케팅코리아  
 
 **성과**:
@@ -58,7 +58,7 @@
 
 ---
 
-### 🚗 PHP → Spring 전환 & DevOps 구축
+### PHP → Spring 전환 & DevOps 구축
 **기간**: 2023.02 – 2023.10 | **소속**: 투어마케팅코리아  
 
 **성과**:
@@ -72,7 +72,7 @@
 
 ---
 
-### 🕸 크롤링 브라우저 개발 & K8s 수집환경 전환
+### 크롤링 브라우저 개발 & K8s 수집환경 전환
 **기간**: 2021.10 – 2022.11 | **소속**: 알에스엔  
 
 **성과**:
@@ -85,7 +85,7 @@
 
 ---
 
-### 🖥 Windows 수집 브라우저 개선
+### Windows 수집 브라우저 개선
 **기간**: 2021.10 – 2022.11 | **소속**: 알에스엔  
 - CEF Sharp 기반 WinForm 클라이언트 메모리 누수/이벤트 로스 해결  
 - 메시지 큐(RabbitMQ) 도입으로 DB 의존성 완화  
@@ -93,7 +93,7 @@
 
 ---
 
-### 💰 회계 프로그램 개발(OPIC-A)
+### 회계 프로그램 개발(OPIC-A)
 **소속**: 써클소프트 | [프로그램 소개](https://youtu.be/e_dNJhh6D4Y?si=Ify7_JGWpSpaYAgk)  
 - 비영리재단·공익회계용 복식회계 프로그램 설계/구현  
 - 사용자의 단식 입력 → 복식 장표 자동 생성 기능 제공  
@@ -101,28 +101,28 @@
 
 ---
 
-### 🏗 ENOVIA PLM 개발 & 운영
+### ENOVIA PLM 개발 & 운영
 **소속**: 도프텍  
 - 기존 .NET·SharePoint 시스템 → ENOVIA(Java) 기반 PLM 시스템 전환 프로젝트 참여  
 - VPMS(Vendor Print Management System) 설계 및 구현
 
 ---
 
-### 📝 MARKUS (도면 검토·마킹 툴)
+### MARKUS (도면 검토·마킹 툴)
 **소속**: 도프텍 | [제품 소개](http://www.doftech.co.kr/markus.aspx)  
 - 고객사 문서관리시스템 연계 및 유지보수  
 - C# WPF 기반 PDF Markup 프로그램 개발
 
 ---
 
-### 🔍 Malwares.com 개발
+### Malwares.com 개발
 **소속**: 샌즈랩(구 세인트시큐리티) | [사이트](https://www.malwares.com/)  
 - 악성코드 탐지 사이트 백엔드 개발  
 - ElasticSearch 기반 검색 기능 고도화 PoC
 
 ---
 
-### 🔗 망연계 솔루션 구축
+### 망연계 솔루션 구축
 **소속**: SQI소프트  
 - 금융/공공기관 다수 망분리 환경 파일 연계 솔루션 구축  
 - 관리자 웹·DB Migration 및 스트림 연계 개발 담당
