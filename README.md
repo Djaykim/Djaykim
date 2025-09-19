@@ -1,154 +1,99 @@
-## Intro
-> 안녕하세요! ***"개발자가 보다 좋은 환경에서 개발을 할 수 있는 환경"*** 을   
-> 만들고 싶은 13년차 웹개발자 김동진 입니다
+# 김동진 – Senior Software Engineer / System Architect
 
-## Core Ability
-* 다양한 웹 개발 경험(JAVA, C#, php), 오픈소스 기반 기술 검토 및 구축 사례 다수로 최적의 솔루션 제안
-* 여러 개발언어의 소스분석이 가능 하여 Legacy를 분석 하고 타 솔루션과 협업 및 개발 운영이 가능
-* 형상관리(git), 이슈관리(redmine), 빌드서버(Jenkins) 뿐만 아닌 환경에 맞는 CI/CD 구축을 통해 개발 생산성, 협업 강화에 기여
+## 👋 Intro
+> 안녕하세요! ***"개발자가 보다 좋은 환경에서 개발할 수 있는 환경"***  
+> 을 만들고 싶은 **15년차 웹 개발자** 김동진입니다.  
+> 다양한 기술 스택과 프로젝트 경험을 바탕으로 **레거시 개선, DevOps 구축, 대규모 시스템 설계**까지  
+> 전 주기에 걸친 문제 해결 능력을 보유하고 있습니다.
 
-## Certificate
-> - 정보처리기사(2010.12)
-> - AWS Certified Solutions Architect - Associate(2022.12)
->> - Certified Kubernetes Administrator(ing)
- 
+---
 
-## Projects
-### PHP Legacy to JAVA Spring 전환 프로젝트 및 Devops 환경 구축
+## 🏆 Core Competencies
+- **Full-stack & Legacy Modernization**  
+  - JAVA, C#, PHP 기반 다양한 웹 서비스 경험  
+  - Legacy 시스템 분석/마이그레이션 및 신규 아키텍처 설계 역량
+- **DevOps & CI/CD**  
+  - Git, Jenkins, Github Actions, Kubernetes 기반 CI/CD 구축 경험  
+  - 개발 생산성 및 협업 체계 강화
+- **Cloud & Infra Architecture**  
+  - AWS 기반 아키텍처 설계(ECS, ECR, Lambda, Aurora 등)  
+  - k8s, istio, observability stack 구축으로 확장성/안정성 확보
+- **협업 & 커뮤니케이션**  
+  - 벤더사 핸들링, 크로스팀 협업, 신규 기술 도입 PoC 리딩 경험 다수
 
-> PHP로 구축되어 있는 기존 렌터카 예약 및 백오피스 사이트를 spring 으로 리뉴얼하고 CI/CD 환경을 구축하여 보다 안정성 있는 서비스를 목표 
->
-> - 참여 기간 : 2023.02 - 2023.10
-> - 핵심 역할 : AWS 기반의 인프라 아키텍쳐 설계, Legacy DB 분석 및 Migration 프로세스 구현, github action 을 통한 CI/CD 구성, 외부시스템 통신을 위한 api 구현, 외부 벤더사 핸들링
-> - 소속 회사 : 투어마케팅코리아
->
->> Back-end service(고객예약,백오피스,본사통신,Notication)
->> - Language : java  
->> - Skill : spring boot, JPA, mybatis
->> - as is url : https://www.alamo.co.kr/
->> 
->
->> Migration
->> - Language : PHP
->> - Skill : Mysql
->>
->> Infra
->> - Skill : ECS, ECR, docker, github action, lambda(python), AWS Dynamo Table, S3, aurora Mysql
->>
+---
 
-### 크롤링 수집 브라우저 개발 및 수집환경 개선
+## 📜 Certifications
+- 정보처리기사 (2010.12)
+- AWS Certified Solutions Architect – Associate (2022.12)
 
-> 기존 Windows VM 에서 C# winform 으로 수집하고 있는 환경을 k8s 환경으로 전환하여 Guest OS로 인한 메모리 낭비를 절약 하고 급변하는 수집 대상에 맞게 수집환경을 확장하는 것이 목표 
->> - win vm 대상 약 100개 노드를 점진적 환경 변화를 위한 테스트 플랜 계획
->> - 20개 노드 1차 전환 후 리소스 효율 약 4배, 수집 데이터 기준 약 5배 향상
->> - 기존 vm당 4GB RAM 일 경우 4GB 당 1개의 Application -> 4개의 Pod 구성
->> - 일주일 간 수집 데이터 기준 일당 10,000건 수집 -> 50,000건 수집(windows vm 10ea / pod 10ea 비교)
-> 
-> - 참여 기간 : 2021.10 - 2022.11
-> - 핵심 역할 : k8s cluster 설계 및 구성, puppeteer 기반 수집 브라우저 구현, workload 모니터링 체계 구축
-> - 소속 회사 : 알에스엔
->
->> web crawler
->> - Language : nodejs  
->> - Skill : puppeteer, docker
->> 
->
->> Infra
->> - Skill : k8s(master node 3, worker node 20), istio, prometheus, node expoter, loki, grafana, thanos, minio
->>
+---
 
-### 윈도우 수집 브라우저 개선
+## 💼 Projects
 
-> Windows OS 상에서 CEF sharp, winform 을 이용하여 수집하는 클라이언트 프로그램
->> - 수집서버와의 인터페이스 및 프로그램 로직의 문제로 인한 수집 이벤트 로스 및 메모리 누수를 캐치하고 문제점을 개선하기 위한 방안을 제시
->> - DB의존성을 해결하기 위해 메세지큐 도입 검토 및 RabbitMQ 적용
->> - 단순 웹페이지 수집에서 이벤트를 핸들링 할 수 있도록 기능 추가 구현
-> 
-> - 참여 기간 : 2021.10 - 2022.11
-> - 핵심 역할 : windows 기반 수집 브라우저 운영 및 개발
-> - 소속 회사 : 알에스엔
->
->> windows crawler
->> - Language : c# winform, CEF sharp  
->> - Skill : Mysql, RabbitMQ
->> 
->
+### 🚗 PHP → Spring 전환 & DevOps 구축
+**기간**: 2023.02 – 2023.10 | **소속**: 투어마케팅코리아  
+**성과**:
+- PHP 기반 렌터카 예약·백오피스 시스템을 **Spring Boot**로 리뉴얼 → 안정성·유지보수성 향상
+- AWS 기반 인프라 설계, Legacy DB 분석 및 Migration 구현
+- **Github Actions 기반 CI/CD** 구축 → 배포 리드타임 단축
+- 외부 시스템 통신 API 설계 및 벤더사 커뮤니케이션 리드
 
-### 회계 프로그램 개발(OPIC-A)
+**Tech Stack**:  
+`Spring Boot` `JPA` `MyBatis` `ECS` `ECR` `Docker` `Aurora MySQL` `Lambda(Python)` `DynamoDB`
 
-> 비영리재단, 공익회계법인에서 단식으로 관리하는 가계부 형식의 회계를 신고하기 위한 용도의 복식 형태로 출력하기 위한 프로그램
->> 사용자는 기존의 단식처럼 입력해도 복식의 장표가 생성되고
->> 자주 바뀌는 인력 교체에도 대응할 수 있도록 사용자의 편의성을 고려하는 것이 목표
->
-> - 핵심 역할 : 회계로직 분석 및 설계, 회계프로그램 구현
-> - 소속 회사 : 써클소프트
-> - url : https://www.circlesoft.co.kr/
-> - youtube : https://youtu.be/e_dNJhh6D4Y?si=Ify7_JGWpSpaYAgk
->
->> OPIC-A
->> - Language : C#  
->> - Skill : winform, devexpress, Mysql, click once
->> 
->
->> Infra
->> - Skill : azure devops
->>
+---
 
-### ENOVIA PLM 개발 및 운영
+### 🕸 크롤링 브라우저 개발 & K8s 수집환경 전환
+**기간**: 2021.10 – 2022.11 | **소속**: 알에스엔  
+**성과**:
+- Windows VM 기반 수집 시스템 → **Kubernetes 기반 분산 환경**으로 전환  
+- **리소스 효율 4배, 데이터 수집량 5배** 향상  
+- Puppeteer 기반 수집 브라우저 개발, workload 모니터링 체계 구축
 
-> 플랜트 프로젝트를 관리하는 기존 sharepoint, .net 기반 사이트를 PLM(enovia)을 적용하여 java 기반 의 사이트로 바꾸기 위한 차세대 프로젝트로 기존 SM 개발자였지만 SI 프로젝트에 참여
->
-> - 핵심 역할 : VPMS 설계 및 구현
-> - 소속 회사 : 도프텍
->
->> VPMS(Vendor Print Management System)
->> - Language : Java  
->> - Skill : enovia, Oracle
->> 
->
+**Tech Stack**:  
+`Node.js` `Puppeteer` `Kubernetes` `Istio` `Prometheus` `Loki` `Grafana` `Minio`
 
-### Markup 프로그램 개발(MARKUS)
+---
 
-> 플랜트 프로젝트에서 도면을 유관부서들이 공유하고 Comment를 남겨 현장에 전달 전까지 검토하는 VPMS에서 시스템상에서는 pdf 로 저장되고, 각 유관부서의 엔지니어들이 각각의 설계툴이 아닌 MARKUS를 통해 보고, 의사전달을 하기 위한 툴
->
-> - 핵심 역할 : VPMS 등 고객사 문서관리시스템과 연계 분석, 프로그램 구축 및 유지보수
-> - 소속 회사 : 도프텍
-> - 소개 url : http://www.doftech.co.kr/markus.aspx
->
->> MARKUS
->> - Language : C# WPF  
->> - Skill : MSSQL
->> 
->
+### 🖥 Windows 수집 브라우저 개선
+**기간**: 2021.10 – 2022.11 | **소속**: 알에스엔  
+- CEF Sharp 기반 WinForm 클라이언트 메모리 누수/이벤트 로스 해결  
+- 메시지 큐(RabbitMQ) 도입으로 DB 의존성 완화  
+- 이벤트 핸들링 기능 추가로 다양한 수집 패턴 대응
 
-### 악성코드분석 서비스 사이트, 검색엔진 구축(malwares.com)
+---
 
-> 대외용 분석 사이트인 malwares.com 개발
->
-> - 핵심 역할 : 악성코드 탐지 사이트 백엔드 구현, 검색기능 향상을 위한 ElasticSearch 시범개발
-> - 소속 회사 : 샌즈랩(구 세인트시큐리티)
-> - url : https://www.malwares.com/
->
->> malwares.com
->> - Language : ASP.NET MVC  
->> - Skill : MSSQL, ElasticSearch
->> 
->
+### 💰 회계 프로그램 개발(OPIC-A)
+**소속**: 써클소프트 | [프로그램 소개](https://youtu.be/e_dNJhh6D4Y?si=Ify7_JGWpSpaYAgk)  
+- 비영리재단·공익회계용 복식회계 프로그램 설계/구현  
+- 사용자의 단식 입력 → 복식 장표 자동 생성 기능 제공  
+- Azure DevOps 기반 배포 자동화 적용
 
-### 망연계솔루션 구축
+---
 
-> 고객사의 망분리 환경에서 내/외부망 사이에 파일을 교환하기 위해서 필요한 기존 보안 USB 대신 사용자 PC에 설치된 에이젼트를 통해 보다 쉽게 파일을 이동 할 수 있고, 스트림 연계를 통해 다른 서비스(메일,그룹웨어 등)들의 연계를 지원
->
-> - 핵심 역할 : 고객사 서비스 및 네트워크 분석, 솔루션 구축, 관리자 웹 구현, 고객사 DB Migration(에이젼트 사용자 정보)
-> - 주요 구축 사례 : 우정사업본부, KB국민은행, KB국민카드, 한국예탁결제원, 한국증권금융, 미래에셋증권, 식약청
-> - 소속 회사 : SQI소프트
->
->> 관리자 웹
->> - Language : PHP  
->> - Skill : Mysql, linux
->> 
->
->> Migration
->> - Skill : java batch, Mysql, mybatis
->>
+### 🏗 ENOVIA PLM 개발 & 운영
+**소속**: 도프텍  
+- 기존 .NET·SharePoint 시스템 → ENOVIA(Java) 기반 PLM 시스템 전환 프로젝트 참여  
+- VPMS(Vendor Print Management System) 설계 및 구현
 
+---
+
+### 📝 MARKUS (도면 검토·마킹 툴)
+**소속**: 도프텍 | [제품 소개](http://www.doftech.co.kr/markus.aspx)  
+- 고객사 문서관리시스템 연계 및 유지보수  
+- C# WPF 기반 PDF Markup 프로그램 개발
+
+---
+
+### 🔍 Malwares.com 개발
+**소속**: 샌즈랩(구 세인트시큐리티) | [사이트](https://www.malwares.com/)  
+- 악성코드 탐지 사이트 백엔드 개발  
+- ElasticSearch 기반 검색 기능 고도화 PoC
+
+---
+
+### 🔗 망연계 솔루션 구축
+**소속**: SQI소프트  
+- 금융/공공기관 다수 망분리 환경 파일 연계 솔루션 구축  
+- 관리자 웹·DB Migration 및 스트림 연계 개발 담당
